@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057E221B2CD82B63003A6B33 /* DoublyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057E22192CD82B63003A6B33 /* DoublyList.cpp */; };
+		057E221D2CD82B91003A6B33 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057E221C2CD82B91003A6B33 /* test.cpp */; };
 		05AFEE032CCD719900505DB2 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05AFEE022CCD719900505DB2 /* Ex1.cpp */; };
 		05E6B32C2CCA3ACF000A51F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05E6B32B2CCA3ACF000A51F2 /* main.cpp */; };
 		05E6B3352CCA4433000A51F2 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05E6B3332CCA4433000A51F2 /* User.cpp */; };
@@ -25,6 +27,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		057E22192CD82B63003A6B33 /* DoublyList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoublyList.cpp; sourceTree = "<group>"; };
+		057E221A2CD82B63003A6B33 /* DoublyList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoublyList.hpp; sourceTree = "<group>"; };
+		057E221C2CD82B91003A6B33 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		05AFEE022CCD719900505DB2 /* Ex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
 		05E6B3282CCA3ACF000A51F2 /* Task1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Task1; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E6B32B2CCA3ACF000A51F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -43,6 +48,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		057E22182CD82B3B003A6B33 /* Exercise2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				057E22192CD82B63003A6B33 /* DoublyList.cpp */,
+				057E221A2CD82B63003A6B33 /* DoublyList.hpp */,
+				057E221C2CD82B91003A6B33 /* test.cpp */,
+			);
+			path = Exercise2.2;
+			sourceTree = "<group>";
+		};
 		05AFEE042CCD71E600505DB2 /* Exercise1.1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +69,7 @@
 		05E6B31F2CCA3ACF000A51F2 = {
 			isa = PBXGroup;
 			children = (
+				057E22182CD82B3B003A6B33 /* Exercise2.2 */,
 				05AFEE042CCD71E600505DB2 /* Exercise1.1 */,
 				05E6B32A2CCA3ACF000A51F2 /* Main */,
 				05E6B3292CCA3ACF000A51F2 /* Products */,
@@ -137,6 +153,8 @@
 			files = (
 				05AFEE032CCD719900505DB2 /* Ex1.cpp in Sources */,
 				05E6B3352CCA4433000A51F2 /* User.cpp in Sources */,
+				057E221B2CD82B63003A6B33 /* DoublyList.cpp in Sources */,
+				057E221D2CD82B91003A6B33 /* test.cpp in Sources */,
 				05E6B32C2CCA3ACF000A51F2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
