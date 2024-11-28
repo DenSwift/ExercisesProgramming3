@@ -8,6 +8,7 @@
 #include "User.hpp"
 #include <iostream>
 
+
 void User::setName(const std::string& n) {
    name = n;
 }

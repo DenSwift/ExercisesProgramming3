@@ -6,16 +6,25 @@
 //
 
 
+// main.cpp
 #include <iostream>
+#include <fstream>
+#include <vector>
+#include "Stock.hpp"
+using namespace std;
 
 
-
-int main(int argc, const char * argv[]) {
+int main() {
+    ifstream iFile;
+    string line = "";
     
-    std::cout << "Hello World!" << std::endl;
-  
-   
+    iFile.open("Lager.csv");
+        
+       getline(iFile, line);
+       getline(iFile, line);
+    
+    cout << line << endl;
+    cout << "Hello World!" << endl;
+    
     return 0;
 }
-
-

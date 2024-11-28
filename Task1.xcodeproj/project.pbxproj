@@ -12,6 +12,8 @@
 		05AFEE032CCD719900505DB2 /* Ex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05AFEE022CCD719900505DB2 /* Ex1.cpp */; };
 		05E6B32C2CCA3ACF000A51F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05E6B32B2CCA3ACF000A51F2 /* main.cpp */; };
 		05E6B3352CCA4433000A51F2 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05E6B3332CCA4433000A51F2 /* User.cpp */; };
+		05F39F492CE3F3EC004A5D74 /* Article.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F39F472CE3F3EC004A5D74 /* Article.cpp */; };
+		05F39F4D2CE408EB004A5D74 /* Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F39F4B2CE408EB004A5D74 /* Stock.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,14 +29,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		054DC4AD2CF87849004B45F1 /* String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
+		054DC4AE2CF87849004B45F1 /* String.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = String.hpp; sourceTree = "<group>"; };
+		054DC4AF2CF87849004B45F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		057E22192CD82B63003A6B33 /* DoublyList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoublyList.cpp; sourceTree = "<group>"; };
 		057E221A2CD82B63003A6B33 /* DoublyList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoublyList.hpp; sourceTree = "<group>"; };
 		057E221C2CD82B91003A6B33 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		05AFEE022CCD719900505DB2 /* Ex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ex1.cpp; sourceTree = "<group>"; };
+		05BEA51C2CE552ED00FDE164 /* Lager.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Lager.csv; sourceTree = "<group>"; };
 		05E6B3282CCA3ACF000A51F2 /* Task1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Task1; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E6B32B2CCA3ACF000A51F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		05E6B3332CCA4433000A51F2 /* User.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
 		05E6B3342CCA4433000A51F2 /* User.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = User.hpp; sourceTree = "<group>"; };
+		05F39F472CE3F3EC004A5D74 /* Article.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Article.cpp; sourceTree = "<group>"; };
+		05F39F482CE3F3EC004A5D74 /* Article.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Article.hpp; sourceTree = "<group>"; };
+		05F39F4B2CE408EB004A5D74 /* Stock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stock.cpp; sourceTree = "<group>"; };
+		05F39F4C2CE408EB004A5D74 /* Stock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stock.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +58,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		054DC4A82CF87849004B45F1 /* Assignment4 */ = {
+			isa = PBXGroup;
+			children = (
+				054DC4AC2CF87849004B45F1 /* Assignment4 */,
+			);
+			path = Assignment4;
+			sourceTree = "<group>";
+		};
+		054DC4AC2CF87849004B45F1 /* Assignment4 */ = {
+			isa = PBXGroup;
+			children = (
+				054DC4AD2CF87849004B45F1 /* String.cpp */,
+				054DC4AE2CF87849004B45F1 /* String.hpp */,
+				054DC4AF2CF87849004B45F1 /* main.cpp */,
+			);
+			path = Assignment4;
+			sourceTree = "<group>";
+		};
 		057E22182CD82B3B003A6B33 /* Exercise2.2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +97,8 @@
 		05E6B31F2CCA3ACF000A51F2 = {
 			isa = PBXGroup;
 			children = (
+				054DC4A82CF87849004B45F1 /* Assignment4 */,
+				05F39F462CE3F378004A5D74 /* Exercise3 */,
 				057E22182CD82B3B003A6B33 /* Exercise2.2 */,
 				05AFEE042CCD71E600505DB2 /* Exercise1.1 */,
 				05E6B32A2CCA3ACF000A51F2 /* Main */,
@@ -87,11 +117,23 @@
 		05E6B32A2CCA3ACF000A51F2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				05BEA51C2CE552ED00FDE164 /* Lager.csv */,
 				05E6B32B2CCA3ACF000A51F2 /* main.cpp */,
 				05E6B3332CCA4433000A51F2 /* User.cpp */,
 				05E6B3342CCA4433000A51F2 /* User.hpp */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		05F39F462CE3F378004A5D74 /* Exercise3 */ = {
+			isa = PBXGroup;
+			children = (
+				05F39F472CE3F3EC004A5D74 /* Article.cpp */,
+				05F39F482CE3F3EC004A5D74 /* Article.hpp */,
+				05F39F4B2CE408EB004A5D74 /* Stock.cpp */,
+				05F39F4C2CE408EB004A5D74 /* Stock.hpp */,
+			);
+			path = Exercise3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +197,8 @@
 				05E6B3352CCA4433000A51F2 /* User.cpp in Sources */,
 				057E221B2CD82B63003A6B33 /* DoublyList.cpp in Sources */,
 				057E221D2CD82B91003A6B33 /* test.cpp in Sources */,
+				05F39F4D2CE408EB004A5D74 /* Stock.cpp in Sources */,
+				05F39F492CE3F3EC004A5D74 /* Article.cpp in Sources */,
 				05E6B32C2CCA3ACF000A51F2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
